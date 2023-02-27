@@ -1,0 +1,92 @@
+body {
+    display: grid;
+    grid-template-columns:
+    1fr
+    1fr
+    1fr
+    1fr
+    ;
+    grid-template-rows:
+    min-content
+    min-content
+    1fr
+    50px
+    ;
+    grid-template-areas:
+    'nav nav nav nav'
+    'header header header header'
+    'body body body body'
+    'footer footer footer footer'
+    ;
+}
+
+/*nav area*/
+.container-fluid {
+    grid-area: nav;
+}
+
+
+/*header area*/
+.header {
+    grid-area: header;
+    margin-bottom: 5px;
+}
+
+
+/*body area*/
+.body {
+    grid-area: body;
+    margin-bottom: 5px;
+}
+
+.body-content {
+    display: grid;
+    grid-template-rows:
+    1fr
+    1fr
+    1fr
+    ;
+}
+
+.vehicles {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.vehicles > .vehicles-text {
+    margin-left: 50px;
+}
+
+.launch {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.launch > .launch-text {
+    margin-left: 50px;
+}
+
+.recovery {
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+.recovery > .recovery-text {
+    margin-left: 50px;
+}
+
+
+
+/*footer area*/
+.footer {
+    grid-area: footer;
+    margin-bottom: 5px;
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.05)
+}
