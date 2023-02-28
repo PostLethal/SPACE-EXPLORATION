@@ -1,3 +1,8 @@
+body {
+    background-color: var(--black);
+    color: var(--cream);
+}
+
 .grid-safety{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -6,6 +11,7 @@
 
 .grid-safety > .row-safety > .col-safety > .safety-photos{
     height: 300px;
+    width: 100%;
 }
 
 .grid-safety > .row-safety > .col-safety > .safety-text{
