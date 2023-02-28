@@ -1,7 +1,7 @@
 body {
     display: grid;
     background-color: var(--black);
-    color: red;
+    color: var(--cream);
     grid-template-columns:
     1fr
     1fr
@@ -48,7 +48,6 @@ body {
     1fr
     1fr
     ;
-    border: 2px solid var(--cream);
 }
 
 .vehicles {
@@ -56,9 +55,11 @@ body {
     margin: 30px;
     align-items: center;
     justify-content: space-evenly;
+    border-bottom: 2px solid var(--ash);
 }
 .vehicles > .vehicles-text {
     margin-left: 35px;
+    width: 250px;
 }
 
 .launch {
@@ -66,9 +67,11 @@ body {
     margin: 30px;
     align-items: center;
     justify-content: space-evenly;
+    border-bottom: 2px solid var(--ash);
 }
 .launch > .launch-text {
     margin-left: 50px;
+    width: 250px;
 }
 
 .recovery {
@@ -76,9 +79,11 @@ body {
     margin: 30px;
     align-items: center;
     justify-content: space-evenly;
+    border-bottom: 2px solid var(--ash);
 }
 .recovery > .recovery-text {
     margin-left: 30px;
+    width: 250px;
 }
 
 
@@ -92,4 +97,5 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--black);
+    color: var(--ash);
 }
