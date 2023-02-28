@@ -1,8 +1,4 @@
-a {
-    color: var(--red);
-}
-
-.logo-container > p {
+.nav-item {
     color: var(--red);
 }
 
@@ -15,4 +11,8 @@ a {
 .nav-container {
     margin: auto;
     width:50%;
+}
+
+.unorderd-list {
+    margin-top: -20px;
 }
