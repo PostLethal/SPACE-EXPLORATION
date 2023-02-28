@@ -1,3 +1,7 @@
+a {
+    color: var(--red)!important;
+}
+
 .nav-item {
     color: var(--red);
 }
