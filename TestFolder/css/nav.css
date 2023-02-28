@@ -1,5 +1,9 @@
+a {
+    color: var(--red);
+}
+
 .logo-container > p {
-    color: blue;
+    color: var(--red);
 }
 
 .logo-container {
