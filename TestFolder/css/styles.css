@@ -1,0 +1,8 @@
+.destination-wrapper>button{
+    position: relative;
+    right: -75vw;
+    bottom: 50vh;
+}
+body{
+    font-family: 'Noto Sans', sans-serif;
+}

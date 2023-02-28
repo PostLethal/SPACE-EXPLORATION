@@ -1,0 +1,5 @@
+.row-cols-2 > .col-6 > .photo-safety {
+    width: 50%;
+    height: 150px;
+    background-color: red;
+}
