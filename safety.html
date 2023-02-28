@@ -15,29 +15,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container-fluid bg-dark">
-        <ul class="nav nav-tabs">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-            </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Separated link</a></li>
-            </ul>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link">Disabled</a>
-            </li>
-        </ul>
+
+     <!-- Nav Bar Container -->
+     <div class="d-flex justify-content-between">
+
+        <div class="logo-container d-flex justify-content-start">
+            <img src="media/svg/SVG/Asset 2.svg" alt="logo" style="height: 35%; width: 35%; margin-top: 20px;">
+        </div>
+
+        <div class="nav-container ">
+            <!-- Nav Bar -->
+            <ul class="nav nav-pills p-2 justify-content-center ">
+                        
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="vehicles.html">Vehicles</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="safety.html" style="background-color: var(--red); color: white!important;">Saftey</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="copyright.html">Copyright</a>
+                </li>
+                </ul>
+
+        </div>
+
+        <div class="logo-container d-flex justify-content-end">
+            <p>Logo</p>
+        </div>
     </div>
+
     <div class="grid-safety">
         <div class="row-safety">
             <div class="col-safety">
@@ -48,14 +61,14 @@
             </div>
             <div class="col-safety">
                 <div class="safety-photos">
-                    <img href="media\icons\Icon Color_16.png" alt="Space Station">
+                    <img src="media\icons\Icon Color_16.png" alt="Space Station">
                 </div>
             </div>
         </div>
         <div class="row-safety">
             <div class="col-safety">
                 <div class="safety-photos">
-                    <img href="#" alt="">
+                    <img src="media\icons\Icon Color_9.png" alt="Earth">
                 </div>
             </div>
             <div class="col-safety">
@@ -74,7 +87,7 @@
             </div>
             <div class="col-safety">
                 <div class="safety-photos">
-                    <img href="#" alt="">
+                    <img src="media\icons\Icon Color_18.png" alt="Space Ship">
                 </div>
             </div>
         </div>
