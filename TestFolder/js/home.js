@@ -17,19 +17,13 @@ $(document).on("click", (e) => {
         now: '+=1'
       },{
         duration: 5000,
-        easing: "easeInOutCirc",
+        easing: "swing",
         step: function(now,fx) {
             $("main > .destination-wrapper").each((index, element) => {
                 console.log(index);
-                element.style.transform = "translateZ("+(10000*(index-(now)))+"px) translateY(100px)";
+                element.style.transform = "translateZ("+(100000*(index-(now)))+"px) translateY(100px)";
             });
           },
           duration:1000
     })
-    /*
-    .each((index, element) => {
-        console.log(index);
-        element.style.transform = "translateZ("+(100000*(index-1))+"px) translateY(100px)";
-        element.style.zIndex = -index;
-    })*/
 });
