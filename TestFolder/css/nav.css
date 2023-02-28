@@ -1,0 +1,14 @@
+.logo-container > p {
+    color: blue;
+}
+
+.logo-container {
+    color: blue;
+    width: 25%;
+    padding: 0px;
+}
+
+.nav-container {
+    margin: auto;
+    width:50%;
+}
