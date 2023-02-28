@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 a {
     color: var(--red)!important;
 }
@@ -13,10 +17,20 @@ a {
 }
 
 .nav-container {
-    margin: auto;
     width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .unorderd-list {
     margin-top: -20px;
+}
+
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    position: relative;
+    left:  775px;
+    bottom: 100px;
 }
