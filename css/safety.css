@@ -1,31 +1,37 @@
 body {
     background-color: var(--black);
     color: var(--cream);
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .grid-safety{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 30px 10% 30px 10%;
+    align-content: center;
+    margin: 40px 15% 40px 15%;
+
 }
 
-.grid-safety > .row-safety > .col-safety > .safety-photos{
-    height: 500px;
-    width: fit-content;
+.grid-safety > .row-safety {
+    display: flex;
+}
+
+.grid-safety > .row-safety > .col-safety{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 350px;
+    margin: 10px;
 }
 
 .grid-safety > .row-safety > .col-safety > .safety-photos img{
-    height: 500px;
-    width: fit-content;
     object-fit: cover;
 }
 
 .grid-safety > .row-safety > .col-safety > .safety-text{
-    height: 500px;
-    width: fit-content;
-    text-align: center;
-    
-    
+   text-align: center;
+
 }
 
