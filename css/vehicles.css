@@ -1,5 +1,7 @@
 body {
     display: grid;
+    background-color: var(--black);
+    color: white;
     grid-template-columns:
     1fr
     1fr
@@ -21,7 +23,7 @@ body {
 }
 
 /*nav area*/
-.container-fluid {
+.d-flex {
     grid-area: nav;
 }
 
@@ -88,5 +90,5 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.05)
+    background-color: var(--black);
 }
