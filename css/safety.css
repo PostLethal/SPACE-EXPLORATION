@@ -11,6 +11,7 @@ body {
     justify-content: center;
     align-content: center;
     margin: 40px 15% 40px 15%;
+    background: transparent;
 
 }
 
@@ -23,15 +24,21 @@ body {
     flex-direction: column;
     flex: 1;
     height: 350px;
-    margin: 10px;
+    width: 50%;
+    align-items:center;
 }
 
 .grid-safety > .row-safety > .col-safety > .safety-photos img{
     object-fit: cover;
+    border-radius: 200px;
+    box-shadow: 1px -2px 39px 7px rgba(116, 22, 30, 0.7);
 }
 
 .grid-safety > .row-safety > .col-safety > .safety-text{
    text-align: center;
-
+   padding: 20px;
 }
 
+.grid-safety > .row-safety > .col-safety > .safety-text h1{
+   color: var(--red);
+ }

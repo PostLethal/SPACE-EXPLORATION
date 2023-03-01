@@ -29,8 +29,7 @@ a {
 
 .hero-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
-    position: relative;
-    left:  775px;
-    bottom: 100px;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
 }

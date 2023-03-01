@@ -1,8 +1,13 @@
-.destination-wrapper > button{
-    position: relative;
-    right: -75vw;
-    bottom: 50vh;
+:root {
+    --background-color: #000;
+
+    /* Custom perspective prop */
+    --z-height: 0;
 }
-body{
+body {
+    background-image: url(../media/images/space_background/stars.png);
+    background-repeat: repeat;
+    color: var(--cream);
     font-family: 'Noto Sans', sans-serif;
+
 }
